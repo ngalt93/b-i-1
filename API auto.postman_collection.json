@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "57696d52-d1a3-4543-8fe7-4ec12cbacc62",
+		"name": "API auto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5354863"
+	},
+	"item": [
+		{
+			"name": "https://postman-echo.com/post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"payload\": \"hello world!\"\r\n}"
+				},
+				"url": {
+					"raw": "https://postman-echo.com/post",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
